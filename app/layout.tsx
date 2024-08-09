@@ -5,7 +5,10 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TODO LIST APP",
+  title: {
+    template: "%s | TODO LIST APP",
+    default: "TODO LIST APP",
+  },
   description: "A practice on Next.js 14 newbies",
 };
 
